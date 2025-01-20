@@ -62,6 +62,11 @@ use catalog hive_metastore
 
 -- COMMAND ----------
 
+CREATE TABLE students1
+  (id1 INT, name1 STRING, value1 DOUBLE);
+
+-- COMMAND ----------
+
 CREATE TABLE students
   (id INT, name STRING, value DOUBLE);
 
